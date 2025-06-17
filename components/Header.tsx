@@ -41,7 +41,7 @@ export default function Header() {
                 <div className='maxW flex justify-between items-center'>
                     
                     <div>
-                        <a href=""><img className='w-[160px]' src="/garoa-logo.png" alt="" /></a>
+                        <a href="/"><img className='w-[160px]' src="/garoa-logo.png" alt="" /></a>
                     </div>
                     <Navbar />
                 </div>

@@ -5,7 +5,7 @@ export default function Main() {
     return (
         <>
             <section id='home' className='bgMain relative h-screen'>
-                <div className="absolute inset-0 bg-black/40 z-0"></div>
+                <div className="absolute inset-0 bg-black/40 z-0" />
                 <div className='maxW relative top-[45px] flex items-center h-full z-10'>
 
                     <article className='lg:w-[60%]'>

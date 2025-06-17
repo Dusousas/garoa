@@ -4,7 +4,7 @@ import SlideProducts from './subc/SlideProducts';
 export default function Products() {
     return (
         <>
-            <section className='bg-BrownS py-10 lg:py-20'>
+            <section id='products' className='bg-BrownS py-10 lg:py-20'>
                 <div className='maxW'>
                     <SlideProducts />
                     <div className="flex justify-center mt-6">

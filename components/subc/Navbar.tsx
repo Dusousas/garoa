@@ -17,12 +17,14 @@ export default function Navbar() {
         <>
             {/* Navbar Desktop */}
             <nav className="hidden lg:block">
-                <ul className="flex gap-10 items-center text-lg uppercase tracking-widest text-BrownP">
+                <ul className="flex gap-6 items-center text-lg uppercase tracking-widest text-BrownP">
                     <a href="#home"><li>Início</li></a>
                     <a href="#about"><li>Sobre nós</li></a>
                     <a href="/Bastidores"><li>Bastidores</li></a>
-                    <a href="#produtos"><li>Produtos</li></a>
-                    <a  className="bg-GreenP px-6 text-white py-2" target="_blank" href="https://www.lojagaroa.com.br" >Compre agora</a>
+                    <a href="#products"><li>Produtos</li></a>
+                    <a href="#contact"><li>Contato</li></a>
+
+                    <a className="bg-[#47E83E] px-6 text-white py-2" target="_blank" href="https://www.lojagaroa.com.br" >Compre agora</a>
                 </ul>
             </nav>
 
@@ -42,8 +44,10 @@ export default function Navbar() {
                         <a href="#home" onClick={() => setIsOpen(false)}><li>Início</li></a>
                         <a href="#about" onClick={() => setIsOpen(false)}><li>Sobre nós</li></a>
                         <a href="#bastidores" onClick={() => setIsOpen(false)}><li>Bastidores</li></a>
-                        <a href="#produtos" onClick={() => setIsOpen(false)}><li>Produtos</li></a>
-                    <a className="bg-GreenP px-6 text-white py-2" target="_blank" href="https://www.lojagaroa.com.br">Compre agora</a>
+                        <a href="#products" onClick={() => setIsOpen(false)}><li>Produtos</li></a>
+                        <a href="#products" onClick={() => setIsOpen(false)}><li>Contato</li></a>
+
+                        <a className="bg-[#47E83E] px-6 text-white py-2" target="_blank" href="https://www.lojagaroa.com.br">Compre agora</a>
 
                     </ul>
                 </nav>
