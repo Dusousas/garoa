@@ -56,7 +56,7 @@ export default function SlideProducts() {
                         prevEl: prevRef.current,
                         nextEl: nextRef.current,
                     }}
-                    onBeforeInit={(swiper: { params: { navigation: { prevEl: null; nextEl: null; }; }; }) => {
+                    onBeforeInput={(swiper: { params: { navigation: { prevEl: null; nextEl: null; }; }; }) => {
                         swiper.params.navigation.prevEl = prevRef.current;
                         swiper.params.navigation.nextEl = nextRef.current;
                     }}
