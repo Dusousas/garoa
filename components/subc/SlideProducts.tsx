@@ -13,27 +13,30 @@ export default function SlideProducts() {
     const produtos = [
         {
             nome: "Limpa banheiro",
+            slug: "limpa-banheiro",
             imagem: "/produtos/limpa-banheiro.png",
             descricao:
                 "Sou um produto neutro, suave para as mãos mas forte na limpeza! Minha missão é caprichar no seu banheiro, sendo o único produto na manutenção da limpeza - removendo sujeiras, gorduras e limo. Você me encontra em embalagens de 600ml.",
             comprarLink: "https://site.com/produto/limpa-banheiro",
-            saibaMaisLink: "/bastidores/limpa-banheiro"
+            saibaMaisLink: "/limpa-banheiro"
         },
         {
             nome: "Lava louças",
+            slug: "lava-louças",
             imagem: "/produtos/lava-loucas.png",
             descricao:
                 "Sou um produto neutro, suave para as mãos. Minha missão é caprichar na sua louça - removendo sujeiras e gorduras sem deixar manchas. Sou de alto rendimento. Você me encontra em embalagens de 600ml e 5 litros.",
             comprarLink: "https://site.com/produto/lava-loucas",
-            saibaMaisLink: "/bastidores/lava-loucas"
+            saibaMaisLink: "/lava-louças"
         },
         {
             nome: "Lava Roupas",
+            slug: "lava-roupas",
             imagem: "/produtos/lava-roupas.png",
             descricao:
                 "Sou um lava roupas que dispensa o uso de amaciante! Removo manchas difíceis, e sou ideal para todas as roupas. Você me encontra em embalagens de 1 litro e 5 litros.",
             comprarLink: "https://site.com/produto/lava-roupas",
-            saibaMaisLink: "/bastidores/lava-roupas"
+            saibaMaisLink: "/lava-roupas"
         },
     ];
 
