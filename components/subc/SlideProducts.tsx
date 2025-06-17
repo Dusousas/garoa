@@ -4,35 +4,36 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { FaAngleDoubleLeft } from 'react-icons/fa';
+import type { Swiper as SwiperClass } from 'swiper';
 
 export default function SlideProducts() {
-    const prevRef = useRef(null);
-    const nextRef = useRef(null);
+    const prevRef = useRef<HTMLButtonElement>(null);
+    const nextRef = useRef<HTMLButtonElement>(null);
 
     const produtos = [
         {
             nome: "Limpa banheiro",
             imagem: "/produtos/limpa-banheiro.png",
             descricao:
-                "Sou um produto neutro, suave para as mãos mas forte na limpeza! Minha missão é caprichar no seu banheiro, sendo o único produto na manutenção da limpeza - removendo sujeiras, gorduras e limo. Sou muito eficiente na limpeza do banheiro inteiro - pode testar ;) Você me encontra em embalagens de 600ml.",
-            linkCompra: "",
-            linkSaibaMais: "",
+                "Sou um produto neutro, suave para as mãos mas forte na limpeza! Minha missão é caprichar no seu banheiro, sendo o único produto na manutenção da limpeza - removendo sujeiras, gorduras e limo. Você me encontra em embalagens de 600ml.",
+            comprarLink: "https://site.com/produto/limpa-banheiro",
+            saibaMaisLink: "/bastidores/limpa-banheiro"
         },
         {
             nome: "Lava louças",
             imagem: "/produtos/lava-loucas.png",
             descricao:
-                "Sou um produto neutro, suave para as mãos. Minha missão é caprichar na sua louça - removendo sujeiras e gorduras sem deixar manchas. Sou de alto rendimento, e faço isso de maneira segura e natural. Você me encontra em embalagens de 600ml e 5 litros.",
-            linkCompra: "",
-            linkSaibaMais: "",
+                "Sou um produto neutro, suave para as mãos. Minha missão é caprichar na sua louça - removendo sujeiras e gorduras sem deixar manchas. Sou de alto rendimento. Você me encontra em embalagens de 600ml e 5 litros.",
+            comprarLink: "https://site.com/produto/lava-loucas",
+            saibaMaisLink: "/bastidores/lava-loucas"
         },
         {
             nome: "Lava Roupas",
             imagem: "/produtos/lava-roupas.png",
             descricao:
-                "Sou um lava roupas que dispensa o uso de amaciante, pode acreditar! Removo manchas e sujeiras difíceis – meus ingredientes não danificam nem endurecem as fibras dos tecidos, e por isso sou ideal para todas as roupas da família inteira. Você me encontra em embalagens de 1litro e 5 litros.",
-            linkCompra: "",
-            linkSaibaMais: "",
+                "Sou um lava roupas que dispensa o uso de amaciante! Removo manchas difíceis, e sou ideal para todas as roupas. Você me encontra em embalagens de 1 litro e 5 litros.",
+            comprarLink: "https://site.com/produto/lava-roupas",
+            saibaMaisLink: "/bastidores/lava-roupas"
         },
     ];
 
@@ -40,6 +41,7 @@ export default function SlideProducts() {
         <section className="bg-BrownS">
             <div className="maxW">
 
+                {/* Setas personalizadas */}
                 <div className="flex justify-center gap-6 mb-6">
                     <button ref={prevRef}>
                         <FaAngleDoubleLeft className="text-GreenP text-3xl cursor-pointer" />
@@ -56,9 +58,16 @@ export default function SlideProducts() {
                         prevEl: prevRef.current,
                         nextEl: nextRef.current,
                     }}
-                    onBeforeInput={(swiper: { params: { navigation: { prevEl: null; nextEl: null; }; }; }) => {
-                        swiper.params.navigation.prevEl = prevRef.current;
-                        swiper.params.navigation.nextEl = nextRef.current;
+                    onBeforeInit={(swiper: SwiperClass) => {
+                        // Garantir que o Swiper reconheça os botões
+                        // após refs estarem disponíveis
+                        if (
+                            typeof swiper.params.navigation !== 'boolean' &&
+                            swiper.params.navigation
+                        ) {
+                            swiper.params.navigation.prevEl = prevRef.current;
+                            swiper.params.navigation.nextEl = nextRef.current;
+                        }
                     }}
                     breakpoints={{
                         0: { slidesPerView: 1 },
@@ -75,7 +84,7 @@ export default function SlideProducts() {
                                     <div className="flex flex-col gap-y-2 gap-x-6 mt-4">
                                         <a
                                             className="bg-[#47E83E] py-1 px-4 font-DM text-md uppercase tracking-wider text-white"
-                                            href={produto.linkCompra}
+                                            href={produto.comprarLink}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
@@ -83,9 +92,7 @@ export default function SlideProducts() {
                                         </a>
                                         <a
                                             className="bg-GreenP py-1 px-4 font-DM text-md uppercase tracking-wider text-white"
-                                            href={produto.linkSaibaMais}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
+                                            href={produto.saibaMaisLink}
                                         >
                                             Saiba mais
                                         </a>
@@ -95,6 +102,7 @@ export default function SlideProducts() {
                         </SwiperSlide>
                     ))}
                 </Swiper>
+
             </div>
         </section>
     );
