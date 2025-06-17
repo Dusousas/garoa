@@ -4,54 +4,59 @@
     "titulo": "Limpa Banheiro",
     "descricao": "Sou um produto neutro, suave para as mãos mas forte na limpeza! Minha missão é caprichar no seu banheiro, sendo o único produto na manutenção da limpeza - removendo sujeiras, gorduras e limo. Sou muito eficiente na limpeza do banheiro inteiro - pode testar ;) Você me encontra em embalagens de 600ml.",
     "imagem": "/produtos/limpa-banheiro.png",
-    "comousar": "Sou um produto concentrado, para ser diluído. Em um balde, coloque uma tampa (30ml) para cada 1 litro de água. Depois limpe as superfícies com ajuda de um mop ou pano com rodo. Se tiver uma região com muita sujeira, me aplique puro e esfregue com a ajuda de um pano, bucha, esfregão ou escova. O melhor de tudo é que você nem precisa enxaguar - e assim gera ainda economia de água para o planeta! Olha como sou eficiente ;) Por ter ingredientes naturais, posso ter alteração de cor ao longo do tempo, mantendo a mesma eficiência.",
-    "diferente": "Aqui tem matéria prima 100% base vegetal de fontes renováveis - ingredientes de alta biodegradabilidade e baixo grau de toxicidade . Sei que a mãe natureza é sábia e abundante, então não deixo resíduos nas superfícies, no solo ou na água.",
-    "caracteristicas": [
-      "Natural",
-      "Vegano",
-      "Alta eficiência",
-      "Tensoativo biodegradável",
-      "Tira limo",
-      "Pronto uso",
-      "Higienização profunda",
-      "Ação microbiana e anti odor",
-      "Limpa sem danificar",
-      "Com óleo essencial de Capim Limão",
-      "Baixa geração de espuma (do bem), torna a limpeza mais prática, rápida e reduz uso de água",
-      "Embalagem material 100% reciclado",
-      "Gentil às pessoas, aos animais e ao planeta"
-    ]
-  },
-  {
-    "slug": "lava-louças",
-    "titulo": "Produto B",
-    "descricao": "Descrição do Produto B",
-    "imagem": "/produtos/lava-loucas.png",
-    "comousar": "Sou um produto concentrado, para ser diluído. Em um balde, coloque uma tampa (30ml) para cada 1 litro de água. Depois limpe as superfícies com ajuda de um mop ou pano com rodo. Se tiver uma região com muita sujeira, me aplique puro e esfregue com a ajuda de um pano, bucha, esfregão ou escova. O melhor de tudo é que você nem precisa enxaguar - e assim gera ainda economia de água para o planeta! Olha como sou eficiente ;) Por ter ingredientes naturais, posso ter alteração de cor ao longo do tempo, mantendo a mesma eficiência.",
-    "diferente": "Aqui tem matéria prima 100% base vegetal de fontes renováveis - ingredientes de alta biodegradabilidade e baixo grau de toxicidade . Sei que a mãe natureza é sábia e abundante, então não deixo resíduos nas superfícies, no solo ou na água.",
-    "caracteristicas": [
-      "Natural",
-      "Vegano",
-      "Alta eficiência",
-      "Tensoativo biodegradável",
-      "Tira limo",
-      "Pronto uso",
-      "Higienização profunda",
-      "Ação microbiana e anti odor",
-      "Limpa sem danificar",
-      "Com óleo essencial de Capim Limão",
-      "Baixa geração de espuma (do bem), torna a limpeza mais prática, rápida e reduz uso de água",
-      "Embalagem material 100% reciclado",
-      "Gentil às pessoas, aos animais e ao planeta"
-    ]
+    "imagemdescricao": "/produtos/limpa-banheirod.png",
 
+    "comousar": "Sou um produto pronto uso sem enxague - assim você gera ainda economia de água para o planeta! Na faxina, me aplique por todo banheiro (vaso sanitário, pia, azulejo, box, louças e paredes) e depois esfregue com bucha ou esfregão, removendo com pano úmido. Para manutenção da limpeza, me aplique e depois passe um pano que não solte pelo. Por ter ingredientes naturais, posso ter alteração de cor ao longo do tempo, mantendo a mesma eficiência.",
+    "diferente": "Aqui tem matéria prima 100% base vegetal de fontes renováveis - ingredientes de alta biodegradabilidade e baixo grau de toxicidade . Sei que a mãe natureza é sábia e abundante, então não deixo resíduos nas superfícies, no solo ou na água.",
+    "caracteristicas": [
+      "Natural",
+      "Vegano",
+      "Alta eficiência",
+      "Tensoativo biodegradável",
+      "Tira limo",
+      "Pronto uso",
+      "Higienização profunda",
+      "Ação microbiana e anti odor",
+      "Limpa sem danificar",
+      "Com óleo essencial de Capim Limão",
+      "Baixa geração de espuma (do bem), torna a limpeza mais prática, rápida e reduz uso de água",
+      "Embalagem material 100% reciclado",
+      "Gentil às pessoas, aos animais e ao planeta"
+    ]
   },
-  {
+    {
+    "slug": "lava-louças",
+    "titulo": "Limpa Louças",
+    "descricao": "Sou um produto neutro, suave para as mãos mas forte na limpeza! Minha missão é caprichar no seu banheiro, sendo o único produto na manutenção da limpeza - removendo sujeiras, gorduras e limo. Sou muito eficiente na limpeza do banheiro inteiro - pode testar ;) Você me encontra em embalagens de 600ml.",
+    "imagem": "/produtos/lava-loucas.png",
+    "imagemdescricao": "/produtos/limpa-banheirod.png",
+
+    "comousar": "Sou um produto pronto uso sem enxague - assim você gera ainda economia de água para o planeta! Na faxina, me aplique por todo banheiro (vaso sanitário, pia, azulejo, box, louças e paredes) e depois esfregue com bucha ou esfregão, removendo com pano úmido. Para manutenção da limpeza, me aplique e depois passe um pano que não solte pelo. Por ter ingredientes naturais, posso ter alteração de cor ao longo do tempo, mantendo a mesma eficiência.",
+    "diferente": "Aqui tem matéria prima 100% base vegetal de fontes renováveis - ingredientes de alta biodegradabilidade e baixo grau de toxicidade . Sei que a mãe natureza é sábia e abundante, então não deixo resíduos nas superfícies, no solo ou na água.",
+    "caracteristicas": [
+      "Natural",
+      "Vegano",
+      "Alta eficiência",
+      "Tensoativo biodegradável",
+      "Tira limo",
+      "Pronto uso",
+      "Higienização profunda",
+      "Ação microbiana e anti odor",
+      "Limpa sem danificar",
+      "Com óleo essencial de Capim Limão",
+      "Baixa geração de espuma (do bem), torna a limpeza mais prática, rápida e reduz uso de água",
+      "Embalagem material 100% reciclado",
+      "Gentil às pessoas, aos animais e ao planeta"
+    ]
+  },
+      {
     "slug": "lava-roupas",
-    "titulo": "Produto C",
-    "descricao": "Descrição do Produto C",
+    "titulo": "Lava Roupas",
+    "descricao": "Sou um produto neutro, suave para as mãos mas forte na limpeza! Minha missão é caprichar no seu banheiro, sendo o único produto na manutenção da limpeza - removendo sujeiras, gorduras e limo. Sou muito eficiente na limpeza do banheiro inteiro - pode testar ;) Você me encontra em embalagens de 600ml.",
     "imagem": "/produtos/lava-roupas.png",
-        "comousar": "Sou um produto concentrado, para ser diluído. Em um balde, coloque uma tampa (30ml) para cada 1 litro de água. Depois limpe as superfícies com ajuda de um mop ou pano com rodo. Se tiver uma região com muita sujeira, me aplique puro e esfregue com a ajuda de um pano, bucha, esfregão ou escova. O melhor de tudo é que você nem precisa enxaguar - e assim gera ainda economia de água para o planeta! Olha como sou eficiente ;) Por ter ingredientes naturais, posso ter alteração de cor ao longo do tempo, mantendo a mesma eficiência.",
+    "imagemdescricao": "/produtos/limpa-banheirod.png",
+
+    "comousar": "Sou um produto pronto uso sem enxague - assim você gera ainda economia de água para o planeta! Na faxina, me aplique por todo banheiro (vaso sanitário, pia, azulejo, box, louças e paredes) e depois esfregue com bucha ou esfregão, removendo com pano úmido. Para manutenção da limpeza, me aplique e depois passe um pano que não solte pelo. Por ter ingredientes naturais, posso ter alteração de cor ao longo do tempo, mantendo a mesma eficiência.",
     "diferente": "Aqui tem matéria prima 100% base vegetal de fontes renováveis - ingredientes de alta biodegradabilidade e baixo grau de toxicidade . Sei que a mãe natureza é sábia e abundante, então não deixo resíduos nas superfícies, no solo ou na água.",
     "caracteristicas": [
       "Natural",
