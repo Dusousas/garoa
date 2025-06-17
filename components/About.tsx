@@ -44,7 +44,6 @@ export default function About() {
                         <div className='mt-6 flex justify-center lg:justify-start'>
                             <a className='bg-GreenP py-3 px-8 font-DM text-md uppercase rounded-xl tracking-wider text-white' href="https://www.lojagaroa.com.br" target='_blank'>Conheça nossa loja</a>
                         </div>
-
                     </article>
 
                 </div>

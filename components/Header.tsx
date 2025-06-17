@@ -32,7 +32,7 @@ export default function Header() {
     return (
         <>
             <header 
-                className={`py-4 fixed z-20 w-full transition-transform duration-300 ${
+                className={`py-4 fixed z-20 w-full transition-transform duration-300 shadow ${
                     isAtTop ? 'bg-white/80' : 'bg-white'
                 } ${
                     isVisible ? 'translate-y-0' : '-translate-y-full'

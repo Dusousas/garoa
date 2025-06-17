@@ -5,7 +5,8 @@
   --font-RAJ:  'Rajdhani', sans-serif;
   --color-BrownP: #836249;
   --color-GreenP: #5DC4BD;
-  --color-BrowP: ;
+  --color-BrownS:#EAE8DC ;
+  
 }
 
 p,a,h2{
@@ -32,5 +33,14 @@ body,html{
   background-size: cover;
   height: 100vh;
 }
+
+.bgServices{
+  background-image: url('/services-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 
 
