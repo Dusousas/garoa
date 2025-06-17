@@ -1,9 +1,10 @@
 import React from 'react';
+import { FaFacebookSquare, FaInstagramSquare, FaLinkedin } from 'react-icons/fa';
 
 export default function Main() {
     return (
         <>
-            <section className='bgMain relative  h-screen'>
+            <section id='home' className='bgMain relative h-screen'>
                 <div className="absolute inset-0 bg-black/40 z-0"></div>
                 <div className='maxW relative top-[45px] flex items-center h-full z-10'>
 
@@ -17,8 +18,12 @@ export default function Main() {
                         <div className='mt-6 flex justify-center lg:justify-start'>
                             <a className='bg-GreenP py-3 px-8 font-DM text-md uppercase tracking-wider text-white' href="https://www.lojagaroa.com.br" target='_blank'>Ir para a loja sustentável</a>
                         </div>
-
                     </article>
+                </div>
+                <div className='absolute flex flex-row gap-4 right-4 bottom-4 lg:flex-col'>
+                    <a href="https://www.instagram.com/garoa.eco/" target='_blank'><FaInstagramSquare className='text-white text-2xl hover:text-GreenP' /></a>
+                    <a href="" target='_blank'><FaFacebookSquare className='text-white text-2xl hover:text-GreenP' /></a>
+                    <a href="" target='_blank'><FaLinkedin className='text-white text-2xl hover:text-GreenP' /></a>
                 </div>
             </section>
         </>

@@ -17,17 +17,16 @@ export default function Navbar() {
         <>
             {/* Navbar Desktop */}
             <nav className="hidden lg:block">
-                <ul className="flex gap-6 text-lg uppercase tracking-widest text-BrownP">
+                <ul className="flex gap-10 items-center text-lg uppercase tracking-widest text-BrownP">
                     <a href="#home"><li>Início</li></a>
-                    <a href="#about"><li>Sobre</li></a>
-                    <a href="#cortes"><li>Cortes</li></a>
+                    <a href="#about"><li>Sobre nós</li></a>
+                    <a href="/Bastidores"><li>Bastidores</li></a>
                     <a href="#produtos"><li>Produtos</li></a>
+                    <a  className="bg-GreenP px-6 text-white py-2" target="_blank" href="https://www.lojagaroa.com.br" >Compre agora</a>
                 </ul>
             </nav>
 
-            {/* Navbar Mobile */}
             <div className="lg:hidden">
-                {/* Botão do menu */}
                 <button
                     onClick={() => setIsOpen(!isOpen)}
                     className="text-3xl text-BrownP focus:outline-none relative z-50"
@@ -35,17 +34,17 @@ export default function Navbar() {
                     {isOpen ? <FiX /> : <FiMenu />}
                 </button>
 
-                {/* Menu Mobile */}
                 <nav
-                    className={`fixed top-0 right-0 h-screen w-full bg-white shadow-md z-40 flex flex-col items-center justify-center transition-transform duration-300 ${
-                        isOpen ? "translate-x-0" : "translate-x-full"
-                    }`}
+                    className={`fixed top-0 right-0 h-screen w-full bg-white shadow-md z-40 flex flex-col items-center justify-center transition-transform duration-300 ${isOpen ? "translate-x-0" : "translate-x-full"
+                        }`}
                 >
                     <ul className="flex flex-col items-center gap-8 text-lg uppercase  text-BrownP">
                         <a href="#home" onClick={() => setIsOpen(false)}><li>Início</li></a>
-                        <a href="#about" onClick={() => setIsOpen(false)}><li>Sobre</li></a>
-                        <a href="#cortes" onClick={() => setIsOpen(false)}><li>Cortes</li></a>
+                        <a href="#about" onClick={() => setIsOpen(false)}><li>Sobre nós</li></a>
+                        <a href="#bastidores" onClick={() => setIsOpen(false)}><li>Bastidores</li></a>
                         <a href="#produtos" onClick={() => setIsOpen(false)}><li>Produtos</li></a>
+                    <a className="bg-GreenP px-6 text-white py-2" target="_blank" href="https://www.lojagaroa.com.br">Compre agora</a>
+
                     </ul>
                 </nav>
             </div>
