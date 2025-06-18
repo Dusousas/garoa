@@ -5,9 +5,6 @@ export default function PartnerStore() {
         <>
             <section className='bg-GreenP py-4'>
                 <div className='maxW flex flex-col gap-10'>
-                    
-
-
                     <article className='overflow-hidden'>
                         <div className='flex gap-10 animate-slide'>
                             {Array(2).fill(0).map((_, idx) => (

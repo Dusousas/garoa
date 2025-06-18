@@ -84,21 +84,9 @@ export default function SlideProducts() {
                                 <div>
                                     <h1 className="font-bold text-2xl uppercase lg:text-3xl">{produto.nome}</h1>
                                     <p className="mt-2 text-sm lg:text-md">{produto.descricao}</p>
-                                    <div className="flex flex-col gap-y-2 gap-x-6 mt-4">
-                                        <a
-                                            className="bg-[#47E83E] py-1 px-4 font-DM text-md uppercase tracking-wider text-white"
-                                            href={produto.comprarLink}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            Comprar agora
-                                        </a>
-                                        <a
-                                            className="bg-GreenP py-1 px-4 font-DM text-md uppercase tracking-wider text-white"
-                                            href={produto.saibaMaisLink}
-                                        >
-                                            Saiba mais
-                                        </a>
+                                    <div className="flex flex-col gap-y-2 gap-x-6 mt-4 lg:flex-row">
+                                        <a className="bg-[#47E83E] py-1 px-4 font-DM text-md uppercase tracking-wider text-white border-2 border-[#47E83E] hover:bg-transparent hover:text-[#47E83E] transition duration-300 ease-in-out" href={produto.comprarLink} target="_blank" rel="noopener noreferrer">Comprar agora</a>
+                                        <a className="bg-GreenP py-1 px-4 font-DM text-md uppercase tracking-wider text-white border-2 border-GreenP hover:bg-transparent hover:text-GreenP transition duration-300 ease-in-out"href={produto.saibaMaisLink}>Saiba mais</a>
                                     </div>
                                 </div>
                             </div>

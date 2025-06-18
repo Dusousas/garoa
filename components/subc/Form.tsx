@@ -11,7 +11,7 @@ export default function Form() {
                 <input className='bg-[#FAFAFA] text-black outline-0 py-4 px-4 w-full' placeholder='Seu E-mail' type="text" />
                 <textarea className='bg-[#FAFAFA] text-black outline-0 py-4 px-4 w-full resize-none' placeholder='Sua mensagem' rows={4} name="" id=""></textarea>
                 <div>
-                    <button className='bg-GreenP  text-white font-DM tracking-wider px-8 py-3 uppercase cursor-pointer'>Enviar</button>
+                    <button className='bg-GreenP cursor-pointer py-3 px-8 font-DM text-md uppercase tracking-wider text-white border-2 border-GreenP hover:bg-transparent hover:text-GreenP transition duration-300 ease-in-out'>Enviar</button>
                 </div>
             </form>
         </>

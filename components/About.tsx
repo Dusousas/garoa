@@ -14,7 +14,6 @@ export default function About() {
                             <h1 className='font-bold text-white text-4xl lg:text-6xl'>10+</h1>
                             <p className='text-sm text-white'>Anos de experiência</p>
                         </div>
-
                         <img className='object-cover w-[50%] border-2 border-GreenP transform translate-y-10 rounded-[140px]  lg:h-[560px] lg:w-[280px]' src="/about-2.jpg" alt="Imagem 2" />
                     </article>
 
@@ -42,7 +41,7 @@ export default function About() {
                         </article>
 
                         <div className='mt-6 flex justify-center lg:justify-start'>
-                            <a className='bg-GreenP py-3 px-8 font-DM text-md uppercase rounded-xl tracking-wider text-white' href="https://www.lojagaroa.com.br" target='_blank'>Conheça nossa loja</a>
+                            <a className='bg-GreenP py-3 px-8 font-DM text-md uppercase tracking-wider text-white border-2 border-GreenP hover:bg-transparent hover:text-GreenP transition duration-300 ease-in-out' href="https://www.lojagaroa.com.br" target='_blank'>Conheça nossa loja</a>
                         </div>
                     </article>
 
