@@ -79,7 +79,7 @@ export default function Navbar(): JSX.Element {
                     </li>
                     <li>
                         <button 
-                            onClick={() => handleNavigation('/bastidores')}
+                            onClick={() => handleNavigation('/Bastidores')}
                             className="hover:opacity-70 transition-opacity uppercase cursor-pointer"
                             type="button"
                         >
