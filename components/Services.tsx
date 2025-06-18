@@ -17,7 +17,7 @@ export default function Services() {
                         <p className='mt-4 text-lg text-white text-center lg:text-left'>Somos transparentes, e por isso nossos ingredientes são todos abertos, em português, e explicamos direitinho a função de cada um deles!
                             Entenda um pouco mais sobre os ingredientes que somos feitos</p>
                         <div className='mt-6 flex justify-center lg:justify-start'>
-                            <a className='bg-GreenP py-3 px-8 font-DM text-md uppercase rounded-xl tracking-wider text-white' href="/Bastidores" target='_blank'>Saiba mais</a>
+                            <a className='bg-GreenP py-3 px-8 font-DM text-md uppercase rounded-xl tracking-wider text-white' href="/bastidores" target='_blank'>Saiba mais</a>
                         </div>
                     </article>
                 </div>
